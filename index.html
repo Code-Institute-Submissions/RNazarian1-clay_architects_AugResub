@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css">
@@ -11,13 +11,13 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" /> -->
+        type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <!----------------------------->
     <title>Clay Architects</title>
     <!----------------------------->
 </head>
-<body>
+<body class="bg-image">
     <!-------------------------------------------->
     <!--------------- menu ---------------------->
     <!-------------------------------------------->
@@ -54,16 +54,37 @@
     <!--------------- Header --------------------->
     <!-------------------------------------------->
     <header>
-       
-    </header>
+<!-- Simulate a smartphone / tablet -->
+<!-- <div class="mobile-container"> -->
+
+<!-- Top Navigation Menu -->
+
+
+<!-- End smartphone / tablet look -->
+<!-- </div> -->
+</header>
+
 
 
     <!-------------------------------------------->
     <!--------------- section -------------------->
     <!-------------------------------------------->
-    <section class="bg-image">
-    <div class="bg-image">
+    <section class="_bg-image">
+        <nav class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+                <a href="#news">Building Desighn</a>
+                <a href="#contact">Interior Design</a>
+                <a href="#contact">Maket Building</a>
+                <a href="#about">Contact</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    
+        <div class="#">
+        </div>
     </section>
     <!-------------------------------------------->
     <!--------------- footer --------------------->
@@ -131,6 +152,15 @@
         </div> -->
     </footer>
 
-    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
