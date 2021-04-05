@@ -1,9 +1,9 @@
 console.log("Hello");
 function sendMail(contactForm){
-    emailjs.send("service_2f52xro","template1",{
-        "from_name": contactForm.name.value,
+    emailjs.send("service_b72wp29","template1",{
+        "from_name": contactForm.visitorname.value,
         "from_email": contactForm.emailaddress.value,
-        "message": contactForm.projectsummary.value
+        "message": contactForm.contactmessage.value
     })
         .then (function(response){
             console.log("SUCCESS",response);

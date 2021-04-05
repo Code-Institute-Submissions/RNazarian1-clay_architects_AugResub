@@ -63,28 +63,28 @@ button {
     width: 150px;
     margin-top: 16px;
     margin-bottom: 16px;
-    background-color: rgb(243, 180, 6);
+    /* background-color: rgb(243, 180, 6); */
     border: none;
     border-collapse: separate;
-    border-radius: 125px;
-    perspective: 1px;
+    /* border-radius: 125px; */
+    perspective: 10px;
 }
 
 .btn-secondary {
     width: 100px;
     margin-top: 6px;
     margin-bottom: 6px;
-    background-color: #fdb991;
+    /* background-color: #fdb991; */
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: floralwhite;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: rgb(255, 180, 157);
+    background-color: rgb(99, 1, 1,0.8);
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -96,7 +96,7 @@ button {
 .center-form button[type="submit"] {
     /* background: linear-gradient(to right,
             rgb(255, 92, 92) 0%, rgb(255, 198, 92) 20%, rgb(255, 255, 92) 40%, rgb(92, 255, 92) 60%, rgb(92, 92, 255) 100%); */
-    color: #2D2D2D;
+    color: floralwhite;
 }
 
 
@@ -198,7 +198,7 @@ width:inherit;
 }
 
 .active {
-  background-color: rgba(179, 179, 179, 0.3);
+  background-color: rgba(179, 179, 179, 0.4);
   color: white;
 }
 .show {
