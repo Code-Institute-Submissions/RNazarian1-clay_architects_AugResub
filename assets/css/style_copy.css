@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+.bg-color-white {
+    background-color: #ffffff;
+}
+
+.bg-color-lightgreen {
+    background-color: #e1f7ae;
+}
+
+.bg-color-8e8474 {
+    background-color: #5fa55a;
+}
+
+.bg-color-b58963 {
+    background-color: #01b4bc;
+}
+
+.bg-color-c9bc0f {
+    background-color: #f6d51f;
+}
+
+.bg-color-a5b288 {
+    background-color: #fa8925;
+}
+
+.bg-color-629286 {
+    background-color: #fa5457;
+}
+
+.bg-color-5F472F {
+    background-color: rgb(255, 0, 0);
+}
+
+.bg-color-d4ceaf {
+    background-color: #f38a00;
+}
+
+.bg-color-f00294 {
+    background-color: #f00249;
+}
+
+.bg-color-ad6c0a {
+    background-color: #ad6c0a;
+}
+
+.bg-color-d59efa77 {
+    background-color: #d59efa77;
+}
+
+.bg-color-1900ff77 {
+    background-color: #1900ff77;
+}
+
+.bg-color-black {
+    background-color: #000000;
+}
+
+.bg-gal-image {
+    background-image: url(../images/bg/gallery_rooms_bg_home_17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+
+}
+
+.bg-insp-image {
+    background-image: url(../images/bg/inspiration_background_7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+
+/*--------------- texts ---------------------*/
+.header-gal-name {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #6b6b6b;
+    margin-left: 5%;
+}
+
+
+.header-moto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    color: #6b6b6b;
+    margin-left: 5%;
+}
+
+.header_h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 49px;
+    color: floralwhite;
+    margin-left: 5%;
+    text-align: justify;
+    padding-right: 5%;
+
+}
+
+.header_h3_a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 85px;
+    margin-bottom: 90px;
+    color: floralwhite;
+    margin-left: 5px;
+    text-align: justify;
+}
+
+/*--------------- headering ---------------------*/
+header {
+    margin: 0;
+}
+
+
+.col-headering {
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.logo {
+    background: url("../images/logo/ordak_gallery_logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 290px;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+    border: slategray;
+}
+
+.headering-row-container {
+    padding: 0%;
+}
+
+/*--------------- menu ---------------------*/
+
+.list-inline-item:not(:last-child) {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+
+
+
+.menucontainer {
+    font-size: 0%;
+    padding: 0;
+    margin-left: 0px;
+
+
+}
+
+#nav {
+    margin: 0%;
+    padding-bottom: 0%;
+    border-left: 0px;
+
+}
+
+#nav li {
+    font-size: 14px;
+
+    padding-right: 0px;
+    margin: 0%;
+    text-align: center;
+    vertical-align: central;
+
+
+
+}
+
+.menuitem {
+    height: 45px;
+    text-align: center;
+    padding: 0%;
+    vertical-align: middle;
+    width: 150%;
+    padding-bottom: 0%;
+
+
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: floralwhite;
+    height: 100px;
+    padding-bottom: 0%;
+    display: inline-block;
+
+
+
+}
+
+.menuitem span {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    line-height: 0%;
+    text-decoration: none;
+    padding-top: 0%;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.rowextra {
+    padding: 0%;
+    border: 0px;
+    vertical-align: middle;
+
+}
+
+.colextra {
+    padding: 0%;
+    border: 0px;
+    vertical-align: middle;
+
+}
+
+
+
+
+.hvr-fade::before {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.hvr-new::before {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-decoration: none;
+}
+
+span:hover {
+    text-decoration: none;
+    background-color: rgb(241, 241, 237, 0.25);
+}
+
+
+/*--------------- Home section ---------------------*/
+#sect {
+    margin: 0%;
+    padding-bottom: 0%;
+    border-left: 0px;
+    text-decoration: none;
+
+}
+
+.sect-span {
+
+    color: #2e1304;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    vertical-align: bottom;
+    line-height: 0%;
+    text-decoration: none;
+    padding-top: 0%;
+    justify-content: center;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5%;
+    margin-top: 55px;
+}
+
+.sect-span-floralwhite {
+    color: floralwhite;
+
+}
+
+.sct-li {
+    height: 250px;
+    text-align: center;
+    padding: 0px;
+    vertical-align: middle;
+    width: 50%;
+    padding-bottom: 0%;
+
+
+
+}
+
+.sect-size {
+    width: 100%;
+    height: 100%;
+    border-left: 0px;
+    transform-origin: 0px;
+}
+
+/*--------------- footer ---------------------*/
+
+footer {
+    background-color: #504b4b;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+#foot {
+    margin: 0%;
+    padding-bottom: 0%;
+    border-left: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.foot-span {
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    line-height: 0%;
+    text-decoration: none;
+    padding-top: 0px;
+    justify-content: center;
+    padding-bottom: 0%;
+
+}
+
+.a-hover:hover {
+    text-decoration: none;
+}
+
+.foot-span-177c1c {
+    color: #17547c;
+
+}
+
+.foot-div {
+
+    text-align: center;
+    padding: 0%;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 0%;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: floralwhite;
+    text-align: center;
+
+}
+
+#footer-details {
+    padding: 20px;
+
+}
+
+#soc li {
+    font-size: 14px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#soc {
+    margin: 0;
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 5px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 25%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+.fb a i {
+    background-color: rgb(12, 115, 250);
+}
+
+.tw a i {
+    background-color: rgb(1, 217, 255);
+}
+
+.ln a i {
+    background-color: rgb(8, 60, 129);
+    ;
+}
+
+.pi a i {
+    background-color: rgb(248, 53, 79);
+}
+
+.in a i {
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.yt a i {
+    background-color: rgba(252, 7, 7);
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
+
+.ema a i {
+    background-color: rgb(39, 39, 32);
+}
+
+
+/*--------------- Art Work Section---------------------*/
+.image1 {
+    background-image: url(../images/artist_anahita/artwork/anahita_sn_9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 200px;
+    height: auto;
+
+}
+
+.image2 {
+    background-image: url(../images/artist_simin/artwork/simin_sn_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.image3 {
+    background-image: url(../images/artist_anahita/artwork/anahita_sn_6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.image4 {
+    background-image: url(../images/artist_anahita/artwork/anahita_sn_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.image5 {
+    background-image: url(../images/artist_simin/artwork/simin_sn_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.image6 {
+    background-image: url(../images/artist_anahita/artwork/anahita_sn_11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.image7 {
+    background-image: url(../images/artist_anahita/artwork/anahita_sn_7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 1px;
+    width: 295px;
+    height: auto;
+
+}
+
+.artwork-div:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    transform: scale(1.3);
+    z-index: 3;
+}
+
+.inspiration-div:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    transform: scale(1.3);
+    z-index: 3;
+}
+
+.artitem {
+    height: 250px;
+    text-align: center;
+    padding: 0%;
+    vertical-align: top;
+    padding-bottom: 0%;
+    border: 2px;
+    border-color: maroon;
+}
+
+
+.artwork-div {
+
+    text-align: center;
+    background-color: floralwhite;
+    padding: 0%;
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0%;
+    border: 0px;
+    border-color: maroon;
+
+}
+
+
+
+.gallery-span {
+    color: floralwhite;
+    background-color: rgba(7, 7, 7, 0.5);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    line-height: 0%;
+    text-decoration: none;
+    padding-top: 1px;
+    padding-bottom: 0%;
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: center;
+    border: 2px;
+    border-color: maroon;
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+
+}
+
+#gal li {
+    margin-top: 10px;
+}
+
+/*--------------- Inspirations Section---------------------*/
+
+.insp-image1 {
+    background-image: url(../images/artist_anahita/insp/inspiration1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    max-width: 1%;
+
+}
+
+.insp-image2 {
+    background-image: url(../images/artist_anahita/insp/inspiration2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    max-width: 1%;
+
+}
+
+.insp-image3 {
+    background-image: url(../images/artist_anahita/insp/inspiration3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    max-width: 1%;
+
+}
+
+.insp-image4 {
+    background-image: url(../images/artist_anahita/insp/inspiration4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    max-width: 1%;
+
+}
+
+
+
+
+.artitem {
+    height: 300px;
+    text-align: center;
+    padding: 0%;
+    vertical-align: top;
+    padding-bottom: 0%;
+    border: 2px;
+    border-color: maroon;
+}
+
+
+.inspiration-div {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0%;
+    vertical-align: top;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 0%;
+    border: 10px;
+    border-color: maroon;
+}
+
+/*--------------- Interesting Section---------------------*/
+
+.int-list-inline-item:not(:last-child) {
+    margin: 0px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.int-menucontainer {
+    font-size: 0%;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.int-menuitem {
+    height: 45px;
+    text-align: center;
+    padding: 0%;
+    vertical-align: middle;
+    width: 150%;
+    padding-bottom: 0%;
+
+
+}
+
+.int-menuitem a {
+    text-decoration: none;
+    color: floralwhite;
+    height: 100px;
+    padding-bottom: 0%;
+    display: inline-block;
+
+
+
+}
+
+.int-menuitem span {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    vertical-align: center;
+    line-height: 100%;
+    text-decoration: none;
+    padding-top: 20%;
+    padding-left: 0px;
+    justify-content: left;
+    text-decoration: none;
+
+
+}
+
+.int-item {
+    height: 250px;
+    text-align: left;
+    padding: 0%;
+    vertical-align: top;
+    padding-bottom: 0%;
+    border: 2px;
+    border-color: maroon;
+}
+
+
+.int-div {
+    text-align: left;
+    background-color: #d59efa77;
+    padding: 0%;
+    vertical-align: top;
+    width: 100%;
+    height: 250px;
+    padding-left: 0%;
+    border: 10px;
+    border-color: maroon;
+}
+
+.int-li {
+    padding-left: 20px;
+    color: rgb(122, 120, 120);
+    margin-bottom: 8px;
+
+}
+
+/*--------------- usefull reading  material---------------------*/
+.read-list-inline-item:not(:last-child) {
+    margin: 0px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.read-menucontainer {
+    font-size: 0%;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.read-menuitem {
+    height: 45px;
+    text-align: center;
+    padding: 0%;
+    vertical-align: middle;
+    width: 150%;
+    padding-bottom: 0%;
+
+
+}
+
+.read-menuitem a {
+    text-decoration: none;
+    color: floralwhite;
+    height: 100px;
+    padding-bottom: 0%;
+    display: inline-block;
+
+
+
+}
+
+.read-menuitem span {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    vertical-align: center;
+    line-height: 100%;
+    text-decoration: none;
+    padding-top: 20%;
+    padding-left: 0px;
+    justify-content: left;
+    text-decoration: none;
+
+
+}
+
+.read-item {
+    height: 250px;
+    text-align: left;
+    padding: 0%;
+    vertical-align: top;
+    padding-bottom: 0%;
+    border: 2px;
+    border-color: maroon;
+}
+
+
+.read-div {
+    text-align: left;
+    background-color: #b0f1ee77;
+    padding: 0%;
+    vertical-align: top;
+    width: 100%;
+    height: 250px;
+    padding-left: 0%;
+    border: 10px;
+    border-color: maroon;
+}
+
+.read-span li {
+    padding-left: 20px;
+    color: rgb(122, 120, 120);
+    margin-bottom: 8px;
+}
+
+/*--------------- contact us---------------------*/
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: rgb(252, 243, 225);
+
+
+}
+
+form {
+    width: 70%;
+    margin: auto;
+
+}
+
+.form-control {
+    background-color: rgb(252, 243, 225);
+    margin: 10px;
+}
+
+.btn {
+    width: 40%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #f36412;
+}
+
+button {
+    width: 150px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgb(243, 180, 6);
+    border: none;
+    border-collapse: separate;
+    border-radius: 125px;
+    perspective: 1px;
+}
+
+.btn-secondary {
+    width: 100px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #fdb991;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(255, 157, 170);
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.center-form button[type="submit"] {
+    background: linear-gradient(to right,
+            rgb(255, 92, 92) 0%, rgb(255, 198, 92) 20%, rgb(255, 255, 92) 40%, rgb(92, 255, 92) 60%, rgb(92, 92, 255) 100%);
+    color: #2D2D2D;
+}
