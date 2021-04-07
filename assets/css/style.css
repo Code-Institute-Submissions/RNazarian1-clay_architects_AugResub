@@ -43,7 +43,7 @@ width:inherit;
     position: absolute;
     overflow: hidden;
 
-    background-image: url ("../images/bg/bg_image.jpg");
+    /* background-image: url ("../images/bg/bg_image.jpg"); */
     
     /* If you want no margin */
     margin: 0;
@@ -55,6 +55,21 @@ width:inherit;
     
 }
 /* -------------Nav --------------- */
+/* .logo {
+    display: inline-block;
+    background-image: url("../images/bg/logo/logo_clay_architects.jpg");
+    box-sizing: border-box;
+    width:20% ;
+    height:100% !important;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: flex;
+    align-items: center;
+    position:relative;
+    overflow: hidden;
+
+} */
 
 .mobile-container {
   max-width: 480px;
@@ -125,6 +140,7 @@ width:inherit;
     /* max-width: 80%; */
     position: sticky; 
     /* bottom:10vh; */
+    margin-top:25%;
   
     
 }
@@ -151,8 +167,9 @@ form {
 }
 
 .form-control {
-    background-color: rgba(94, 94, 94, 0.60);
+    background-color: rgba(150, 150, 150, 0.80);
     margin: 10px;
+    color:black;
 }
 
 .btn {
@@ -223,7 +240,7 @@ footer {
 
 }
 
-.foot-span {
+/* .foot-span {
     color: floralwhite;
     width: 100%;
     text-align: center;
@@ -238,7 +255,7 @@ footer {
     justify-content: center;
     padding-bottom: 0%;
 
-}
+} */
 
 .a-hover:hover {
     text-decoration: none;
@@ -275,7 +292,8 @@ footer {
 
 #footer-details {
     padding-top: 25px;
-    margin-top: 50px;
+    margin-top: 25%;
+    position:bottom
     
 
 
