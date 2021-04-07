@@ -55,21 +55,22 @@ width:inherit;
     
 }
 /* -------------Nav --------------- */
-/* .logo {
+.logo {
     display: inline-block;
     background-image: url("../images/bg/logo/logo_clay_architects.jpg");
     box-sizing: border-box;
     width:20% ;
-    height:100% !important;
+    height:50px;
     background-position: left;
     background-repeat: no-repeat;
     background-size:auto;
     display: flex;
-    align-items: center;
-    position:relative;
+    float: left;
+    /* position:relative; */
     overflow: hidden;
+    z-index:50;
 
-} */
+}
 
 .mobile-container {
   max-width: 480px;
