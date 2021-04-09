@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  >
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,49 +14,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_Ab5l556hpnDkiZB1KD6J9");
-        })();
-    </script>
     <!----------------------------->
     <title>Clay Architects</title>
     <!----------------------------->
-
 </head>
 
-<body  class="bg-image">
-    <!-------------------------------------------->
-    <!--------------- menu ---------------------->
-    <!-------------------------------------------->
-
-    <!-- <div class="row rowextra">
-        <div class="col colextra">
-            <ul id="nav" class="list-inline menucontainer">
-                <li class="col-12 col-sm-2 list-inline-item bg-color-8e8474  menuitem hvr-fade">
-                    <a href="index.html" class="a-hover"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-sm-2 list-inline-item bg-color-b58963 menuitem hvr-fade">
-                    <a href="artworks.html" class="a-hover"><span>Art Works</span></a>
-                </li>
-                <li class="col-12 col-sm-2 list-inline-item bg-color-c9bc0f menuitem hvr-fade">
-                    <a href="inspirations.html" class="a-hover"><span>Inspirations</span></a>
-                </li>
-                <li class="col-12 col-sm-2 list-inline-item bg-color-a5b288 menuitem hvr-fade">
-                    <a href="interesting.html" class="a-hover"><span>Interesting Events</span></a>
-                </li>
-                <li class="col-12 col-sm-2 list-inline-item bg-color-629286 menuitem hvr-fade">
-                    <a href="useful.html" class="a-hover"><span>Useful Readings</span></a>
-                </li>
-                <li class="col-12 col-sm-2 list-inline-item bg-color-5F472F menuitem hvr-fade">
-                    <a href="contact.html" class="a-hover"><span>Contact Us</span></a>
-
-                </li>
-            </ul>
-        </div>
-    </div> -->
+<body class="bg-index-image" >
 
 
 
@@ -95,31 +58,16 @@
         </div>
         </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i id="hambg" class="fa fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </a>
         </nav>
-
-        <div class="center-form">
-            <form onsubmit="return sendMail(this);">
-                <input id="from_name" type="text" name="visitorname" class="form-control" placeholder="Name" required />
-                <input id="from_email" type="email" name="emailaddress" class="form-control" placeholder="Email" required />
-                <textarea id="messages" rows="5" name="contactmessage" class="form-control"
-                    placeholder="Write  Here Please" required></textarea>
-                <div class="form-row text-center">
-                    <div class="col">
-                        <button type="submit" class="btn btn-secondary">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-
 
     </section>
     <!-------------------------------------------->
     <!--------------- footer --------------------->
     <!-------------------------------------------->
     <footer>
-        <div id="footer-details" class="row">
+          <div id="footer-details" class="row">
 
 
             <div class="col-sm-12 ">
@@ -181,23 +129,16 @@
         </div>
     </footer>
 
-    <script src = "assets/js/sendemail.js"></script>
+    <script src = "assets/js/whoarewe.js"></script>
     <script>
         function myFunction() {
             var menu = document.getElementById("menuitems");
             if (menu.style.display == "block") {
                 menu.style.display = "none";
-                // document.getElementById("hambg").classList.remove("fa-bars").add("fa-times");
-                // document.getElementById("hambg").classList.add("fa fa-times");
             } else {
                 menu.style.display = "block";
-                // document.getElementById("hambg").classList.remove("fa fa-bars").add("fa-times");  
             }
         };
-
-//         if ( document.URL.includes("home.html") ) {
-//     document.getElementById("hambg").classList.remove("fa fa-bars").add("fa fa-times");
-// }
     </script>
 </body>
 

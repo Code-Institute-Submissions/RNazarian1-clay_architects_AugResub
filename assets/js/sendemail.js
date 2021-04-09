@@ -20,3 +20,4 @@ function sendMail(contactForm){
 
     return false;
 }
+
