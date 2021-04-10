@@ -437,4 +437,7 @@ ul {
 }
 
 
-
+.black-style {
+    color:rgb(51, 51, 51) !important;
+    border-color: rgb(51, 51, 51) !important;
+}
