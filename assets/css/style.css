@@ -23,11 +23,13 @@ body {
 /* .div-class-1 {
 width:inherit;
 } */
-.bg-image {
+
+
+.bg-home-image {
     display: inline-block;
     /* background-color: rgb(238, 225, 211); */
 
-    background-image: url("../images/bg/contact_page_bg_image.jpg");
+    background-image: url("../images/bg/bg_home_image.jpg");
 
     /* Center and scale the image nicely */
     box-sizing: border-box;
@@ -55,11 +57,11 @@ width:inherit;
     
 }
 
-.bg-index-image {
+.bg-contact-image {
     display: inline-block;
     /* background-color: rgb(238, 225, 211); */
 
-    background-image: url("../images/bg/index_page_bg_image.jpg");
+    background-image: url("../images/bg/bg_contact_imag.jpg");
 
     /* Center and scale the image nicely */
     box-sizing: border-box;
@@ -84,6 +86,41 @@ width:inherit;
     border: 0;
     resize: both;
     /* z-index: -1; */
+    
+}
+
+.bg-whoweare-image {
+    display: inline-block;
+    /* background-color: rgb(238, 225, 211); */
+
+    background-image: url("../images/bg/bg_whoweare_image.jpg");
+
+    /* Center and scale the image nicely */
+    box-sizing: border-box;
+    /* width: 2560px;
+    height: 1440px; */
+    width:100% ;
+    height:100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    /* display: flex; */
+    align-items: center;
+    position: absolute;
+    overflow:hidden;
+    
+
+    /* background-image: url ("../images/bg/bg_image.jpg"); */
+    
+    /* If you want no margin */
+    margin: 0;
+    /*if your want to padding */
+    padding: 0;
+    border: 0;
+    resize: both;
+    /* z-index: -1; */
+    object-fit: contain;
+    
     
 }
 /* -------------Nav --------------- */
