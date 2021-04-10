@@ -1,16 +1,16 @@
-"use strict";
+// "use strict";
 console.log("Hello");
 
 function newFunction() {
     return "black";
 }
 
-// var about;   
+ 
 // function init() { 
     let list = document.getElementsByTagName("ul")[0];
-    for (n = 0; 6; n++) {
-        list.getElementsByTagName("li")[n].getElementsByTagName("i")[0].style.color = newFunction();
-         list.getElementsByTagName("li")[n].getElementsByTagName("i")[0].style.borderColor = newFunction();
+for (n = 0; 2; n++) {
+      list.getElementsByTagName("li")[n].getElementsByTagName("i")[0].style.color = newFunction();
+      list.getElementsByTagName("li")[n].getElementsByTagName("i")[0].style.borderColor = newFunction();
 }
 
 
