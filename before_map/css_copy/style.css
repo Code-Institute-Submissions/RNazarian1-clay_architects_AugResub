@@ -106,7 +106,7 @@ width:inherit;
     /* background-size:auto; */
     /* display: flex; */
     align-items: center;
-    position: absolute;
+    position: sticky;
     overflow:hidden;
     
 
@@ -296,30 +296,7 @@ button {
     color: floralwhite;
 }
 
-/*-----------------------------map------------*/
 
-#map {
-    height: 100%;
-  /* }
-  html, body { */
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    /* background-image: url("../images/bg/logo/logo_clay_architects.jpg"); */
-    box-sizing: border-box;
-    width:75px ;
-    height:30px;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size:auto;
-    display: flex;
-    /* float: left; */
-    position:relative;
-    overflow: hidden;
-    z-index:50;
-
-  }
 
 /*--------------- footer ---------------------*/
 
