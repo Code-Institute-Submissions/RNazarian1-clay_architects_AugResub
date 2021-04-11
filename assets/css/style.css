@@ -302,7 +302,7 @@ button {
     height: 100%;
   /* }
   html, body { */
-    height: 100%;
+    /* height: 100%; */
     margin: 2px;
     padding: 0;
     display: inline-block;
@@ -319,8 +319,9 @@ button {
     overflow: hidden;
     z-index:50;
     
-    border-width: 2px;
-    border-color: brown;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 
   }
 
