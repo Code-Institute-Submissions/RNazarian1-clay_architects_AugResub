@@ -62,7 +62,7 @@
             </a>
         </nav>
 
-        <div id="map">where is my map?</div>
+        <div id="gmap">where is my map?</div>
 
     </section>
     <!-- ---------------------------------------- -->
@@ -132,10 +132,16 @@
     </footer>
 
     <script src = "assets/js/whoarewe.js"></script>
-    <script>
+    <!-- <script>
         //  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALi34EtpFqbMfC9JmUVAbjDG15cFsLpsk&callback=initMap"
-        src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyALi34EtpFqbMfC9JmUVAbjDG15cFsLpsk&callback=initMap&libraries=&v=weekly"
-    </script>
+        async defer src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyALi34EtpFqbMfC9JmUVAbjDG15cFsLpsk&callback=initMap&libraries=&v=weekly"
+        
+    </script> -->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALi34EtpFqbMfC9JmUVAbjDG15cFsLpsk&callback=initMap"></script> -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALi34EtpFqbMfC9JmUVAbjDG15cFsLpsk&callback=initMap">
+</script>
     <script>
         function myFunction() {
             var menu = document.getElementById("menuitems");

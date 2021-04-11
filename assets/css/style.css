@@ -298,18 +298,18 @@ button {
 
 /*-----------------------------map------------*/
 
-#map {
+#gmap {
     height: 100%;
   /* }
   html, body { */
     height: 100%;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     display: inline-block;
     /* background-image: url("../images/bg/logo/logo_clay_architects.jpg"); */
     box-sizing: border-box;
-    width:75px ;
-    height:30px;
+    width:300px ;
+    height:200px;
     background-position: left;
     background-repeat: no-repeat;
     background-size:auto;
@@ -318,6 +318,9 @@ button {
     position:relative;
     overflow: hidden;
     z-index:50;
+    
+    border-width: 2px;
+    border-color: brown;
 
   }
 
