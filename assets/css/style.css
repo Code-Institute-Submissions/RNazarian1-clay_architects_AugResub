@@ -217,7 +217,7 @@ width:inherit;
     /* max-width: 80%; */
     position: sticky; 
     /* bottom:10vh; */
-    margin-top:25%;
+    margin-top:10%;
   
     
 }
@@ -324,6 +324,37 @@ button {
     border-color: black;
 
   }
+  #tipical-div{
+      background-color: rgba(80, 80, 80, 0.50);
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom:25px;
+      margin-top: 10%;
+  
+  /* overflow: inherit; */
+  /* text-overflow: ellipsis;  */
+  }
+  h4 {
+      text-align: left;
+      font-size: large;
+      padding-top: 25px;
+      padding-bottom: 10px;
+      font-family: "Exo", sans-serif;
+      color: floralwhite;
+  }
+
+  #tipical-ul {
+      color: floralwhite;
+    padding-left: 0px;
+    margin: 0;
+    text-align: left;
+    /* text-justify: newspaper; */
+    font-size: small;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+        
+  }
+ 
 
 /*--------------- footer ---------------------*/
 
@@ -396,7 +427,7 @@ footer {
 
 #footer-details {
     padding-top: 25px;
-    margin-top: 55%;
+    margin-top: 10%;
     position:bottom
     
 

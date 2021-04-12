@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  >
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,7 @@
 
 </head>
 
-<body  class="bg-contact-image">
+<body class="bg-contact-image">
     <!-------------------------------------------->
     <!--------------- menu ---------------------->
     <!-------------------------------------------->
@@ -79,30 +79,78 @@
     <!-------------------------------------------->
     <!--------------- section -------------------->
     <!-------------------------------------------->
-    <section >
+    <section>
         <nav class="topnav">
-        <div class="col-sm-12" >
+            <div class="col-sm-12">
 
-            <a href="#home" class="active"><img class="logo" src="assets/images/logo/logo_clay_architects.jpg" alt="Server Logo"></a>
-        <div>
-            <div id="menuitems" class="col-sm-12">
-                <a href="#news">Building Design</a>
-                <a href="#contact">Interior Design</a>
-                <a href="#contact">Landscape</a>
-                <a href="#contact">Makets</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="active"><img class="logo" src="assets/images/logo/logo_clay_architects.jpg"
+                        alt="Server Logo"></a>
+                <div>
+                    <div id="menuitems" class="col-sm-12">
+                        <a href="#news">Building Design</a>
+                        <a href="#contact">Interior Design</a>
+                        <a href="#contact">Landscape</a>
+                        <a href="#contact">Makets</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i id="hambg" class="fa fa-bars"></i>
             </a>
         </nav>
 
+        <div id="tipical-div">
+            <ul id="tipical-ul">
+                <h4>Tipical work stage</h4>
+                <li>
+                    Our typical work stages are designed to give our clients the necessary basics to get building.
+                <li>
+                    You email us details including your name, project address, council name, the below service package
+                    required, project scope, and approved planning drawings where available.
+                </li>
+                <li>
+                    We use ordinance survey and 3D bird's-eye view mapping of your property to assess your project
+                    against planning policy and/or any relevant planning history in your street to check if there is a
+                    reasonable chance of gaining permission.
+                </li>
+                <li>
+                    We visit your property to undertake a measured survey and discuss design options.
+                </li>
+                <li>
+                    We produce the measured survey drawings in approximately one week.
+                </li>
+                <li>
+                    You provide us with a design brief.
+                </li>
+                <li>
+                    We produce the first draft planning and/or building regulations drawings (excluding structural
+                    calculations) depending on which package you choose, in approximately one week.
+                </li>
+                <li>
+                    We revise the drawings if required by you.
+                </li>
+                <li>
+                    We submit the planning application(s) and send you council fee payment details.
+                </li>
+                <li>
+                    We act as you application agent and revise the drawings if required by the council.
+                </li>
+                <li>
+                    We refer you to consultants such as structural engineers for structural calculations, approved
+                    inspectors for building regulations approval, party wall surveyors for party wall agreements, or
+                    project managers to manage the construction if required.
+                </li>
+                We revise the drawings if required by your consultants.
+                </li>
+            </ul>
+        </div>
+
         <div class="center-form">
             <form onsubmit="return sendMail(this);">
                 <input id="from_name" type="text" name="visitorname" class="form-control" placeholder="Name" required />
-                <input id="from_email" type="email" name="emailaddress" class="form-control" placeholder="Email" required />
+                <input id="from_email" type="email" name="emailaddress" class="form-control" placeholder="Email"
+                    required />
                 <textarea id="messages" rows="5" name="contactmessage" class="form-control"
                     placeholder="Write  Here Please" required></textarea>
                 <div class="form-row text-center">
@@ -112,6 +160,7 @@
                 </div>
             </form>
         </div>
+        
 
 
     </section>
@@ -181,7 +230,7 @@
         </div>
     </footer>
 
-    <script src = "assets/js/sendemail.js"></script>
+    <script src="assets/js/sendemail.js"></script>
     <script>
         function myFunction() {
             var menu = document.getElementById("menuitems");
@@ -195,9 +244,9 @@
             }
         };
 
-//         if ( document.URL.includes("home.html") ) {
-//     document.getElementById("hambg").classList.remove("fa fa-bars").add("fa fa-times");
-// }
+        //         if ( document.URL.includes("home.html") ) {
+        //     document.getElementById("hambg").classList.remove("fa fa-bars").add("fa fa-times");
+        // }
     </script>
 </body>
 
