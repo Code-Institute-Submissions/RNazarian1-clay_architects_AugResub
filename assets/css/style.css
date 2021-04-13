@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /* ____________bg color__________ */
 .bg-color-contact {
     background-color: #ffffff;
@@ -124,6 +126,10 @@ width:inherit;
        
 }
 /* -------------Nav --------------- */
+#logodiv{
+    padding-left: 0%;
+    padding-right: 0%;
+}
 .logo {
     display: inline-block;
     background-image: url("../images/bg/logo/logo_clay_architects.jpg");
@@ -162,8 +168,9 @@ width:inherit;
   display: none;
   /* padding:0; */
   border-top: 0px;
-  padding-top:35px;
+  padding-top:15px;
   padding-left:0px;
+  padding-bottom: 15;
   
 }
 
@@ -179,8 +186,8 @@ width:inherit;
   background: rgb(99, 1, 1,0.8);
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 4px;
+  top: 2px;
 }
 
 .topnav a:hover {
@@ -356,6 +363,8 @@ button {
     font-size: small;
     font-family: "Exo", sans-serif;
     font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
         
   }
  
