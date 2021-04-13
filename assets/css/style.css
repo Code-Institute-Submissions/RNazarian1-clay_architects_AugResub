@@ -307,18 +307,44 @@ button {
 
 .offices{
     margin-left: 5%;
+    margin-right:5%;
+    margin-top: 5px;
     font-size: 70%;
+    border: 1px solid rgb(36, 36, 36);
+    border-radius: 8px;
+    background-color: rgba(210, 210, 210, 40%);
+    /* display: block; */
+    /* float:left; */
+    max-width:95%;
 }
 
 .offices-title{
-    margin-left: 5%;
-    margin-top: 10px;
+    margin-left: 20%;
+    margin-top: 25px;
     font-size:60%;
+    padding-left: 20%;
+    width: 100%;
+    display: inline-block;
 }
 
 .office-header{
+    padding-top: 5px;
     font-size:80%;
     font-weight: 700;
+}
+.child-map{
+    margin-top: 5px;
+    margin-right: 5px;
+    float:inline-end;
+}
+.addresses-div{
+    padding-right: 5px;
+    widows: 0px;
+    box-sizing:inherit;
+    overflow: hidden;
+    /* display:block; */
+    margin-right:0%;
+   display: inline-block;
 }
 
 /*-----------------------------map------------*/
@@ -328,14 +354,15 @@ button {
   /* }
   html, body { */
     /* height: 100%; */
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
+    margin-left: 0%;
     display: inline-block;
     /* background-image: url("../images/bg/logo/logo_clay_architects.jpg"); */
     box-sizing: border-box;
-    width:400px ;
+    width:100% ;
     height:250px;
-    background-position: left;
+    /* background-position: left; */
     background-repeat: no-repeat;
     background-size:auto;
     display: flex;
@@ -349,6 +376,13 @@ button {
     border-color: black;
 
   }
+  /* @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    } */
+
   #tipical-div{
       background-color: rgba(80, 80, 80, 0.50);
       padding-left: 5%;
@@ -461,10 +495,6 @@ footer {
     margin-top: 10%;
     position:bottom
     
-
-
-
-
 }
 
 #soc li {
