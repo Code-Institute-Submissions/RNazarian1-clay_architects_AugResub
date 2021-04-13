@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Clay Architects](https://github.com/RNazarian1/clay_architects/blob/b303bfd3d75cc1e96a4eb5f0452ea5766dcba5e8/assets/images/logo/logo_clay_architects.jpg)
 
 Welcome RNazarian1,
 
