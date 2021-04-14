@@ -110,20 +110,43 @@ width:inherit;
     align-items: center;
     position: absolute;
     overflow:hidden;
-    
+    background-size:cover;
 
     /* background-image: url ("../images/bg/bg_image.jpg"); */
     
     /* If you want no margin */
-    margin: 0;
+    /* margin: 0; */
     /*if your want to padding */
-    padding: 0;
-    border: 0;
+    /* padding: 0; */
+    /* border: 0; */
     /* resize: both; */
     /* z-index: -1; */
     /* object-fit: contain; */
     /* box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; */
-       
+    top: 0; /* or the distance from top page edge */
+   max-height: 100%;  
+}
+
+.bg-intro-image {
+    
+
+    background-image: url("../images/bg/bg_intro_image.jpg");
+
+    width:100% ;
+    height:100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* display: flex; */
+    /* align-items: center; */
+    /* position: absolute; */
+    overflow: hidden;
+    /* opacity: 0.4; */
+    filter: alpha(opacity=40);
+   /* background-size: 100%; */
+     
+   top: 0; /* or the distance from top page edge */
+   max-height: 100%;
 }
 /* -------------Nav --------------- */
 #logodiv{
@@ -303,7 +326,30 @@ button {
     color: floralwhite;
 }
 
-/*-----------------------------offices------------*/
+
+/*----------------------------whoweare paragraph------------*/
+.intro {
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 5px;
+    font-size: 70%;
+    /* border: 1px solid rgb(36, 36, 36); */
+    border-radius: 8px;
+    /* background-color: rgba(210, 210, 210, 40%); */
+    /* display: block; */
+    /* float:left; */
+    max-width:92%;
+    
+}
+
+.whoweare-div {
+    margin-right: 0;
+}
+.whoweare-div h6{
+    font-weight: 400;
+    line-height: 2;
+}
+/*----------------------------Whoweare-offices------------*/
 
 .offices{
     margin-left: 5%;
@@ -332,20 +378,26 @@ button {
     font-size:80%;
     font-weight: 700;
 }
-.child-map{
+/* .child-map{
     margin-top: 5px;
     margin-right: 5px;
-    float:inline-end;
-}
+    float:left;
+} */
 .addresses-div{
-    padding-right: 5px;
-    widows: 0px;
+    /* padding-right: 0px; */
+    /* widows: 0px; */
     box-sizing:inherit;
     overflow: hidden;
     /* display:block; */
-    margin-right:0%;
+    /* border-right:15%; */
    display: inline-block;
 }
+
+.col-12 .div{
+  transform-origin: -100px;
+
+}
+
 
 /*-----------------------------map------------*/
 
@@ -356,10 +408,10 @@ button {
     /* height: 100%; */
     /* margin: 0; */
     padding: 0;
-    margin-left: 0%;
+    /* margin-left: 3%; */
     display: inline-block;
     /* background-image: url("../images/bg/logo/logo_clay_architects.jpg"); */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width:100% ;
     height:250px;
     /* background-position: left; */
@@ -530,7 +582,7 @@ footer {
     border-style: solid;
     border-color: floralwhite;
     font-size: 13px;
-    line-height: 7px;
+    /* line-height: 2; */
     text-align: center;
     color: floralwhite;
     transition: all 0.35s ease-in-out;
