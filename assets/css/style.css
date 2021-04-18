@@ -29,101 +29,55 @@ width:inherit;
 
 .bg-home-image {
     display: inline-block;
-    /* background-color: rgb(238, 225, 211); */
-
-    background-image: url("../images/bg/bg_home_image.jpg");
-
-    /* Center and scale the image nicely */
+      background-image: url("../images/bg/bg_home_image.jpg");
     box-sizing: border-box;
-    /* width: 2560px;
-    height: 1440px; */
-    width:100% ;
+     width:100% ;
     height:100% !important;
-    background-position: center;
+    background-position: center, top 0px, right 100px;
     background-repeat: no-repeat;
     background-size:auto;
-    /* display: flex; */
-    align-items: center;
+     align-items: center;
     position: absolute;
     overflow: hidden;
-
-    /* background-image: url ("../images/bg/bg_image.jpg"); */
-    
-    /* If you want no margin */
     margin: 0;
-    /*if your want to padding */
     padding: 0;
     border: 0;
     resize: both;
-    /* z-index: -1; */
-    
+ 
 }
 
 .bg-contact-image {
     display: inline-block;
-    /* background-color: rgb(238, 225, 211); */
-
-    background-image: url("../images/bg/bg_contact_imag.jpg");
-
-    /* Center and scale the image nicely */
+     background-image: url("../images/bg/bg_contact_image.jpg");
     box-sizing: border-box;
-    /* width: 2560px;
-    height: 1440px; */
     width:100% ;
     height:100% !important;
-    background-position: center;
+    background-position: center, top 0px;
     background-repeat: no-repeat;
     background-size:auto;
-    /* display: flex; */
     align-items: center;
     position: absolute;
     overflow: hidden;
-
-    /* background-image: url ("../images/bg/bg_image.jpg"); */
-    
-    /* If you want no margin */
     margin: 0;
-    /*if your want to padding */
     padding: 0;
     border: 0;
     resize: both;
-    /* z-index: -1; */
-    
+     
 }
 
 .bg-whoweare-image {
     display: inline-block;
-    /* background-color: rgb(238, 225, 211); */
-
     background-image: url("../images/bg/bg_whoweare_image.jpg");
-
-    /* Center and scale the image nicely */
     box-sizing: border-box;
-    /* width: 2560px;
-    height: 1440px; */
     width:100% ;
     height:100% !important;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size:auto; */
-    /* display: flex; */
     align-items: center;
     position: absolute;
     overflow:hidden;
     background-size:cover;
-
-    /* background-image: url ("../images/bg/bg_image.jpg"); */
-    
-    /* If you want no margin */
-    /* margin: 0; */
-    /*if your want to padding */
-    /* padding: 0; */
-    /* border: 0; */
-    /* resize: both; */
-    /* z-index: -1; */
-    /* object-fit: contain; */
-    /* box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; */
-    top: 0; /* or the distance from top page edge */
+    top: 0;
    max-height: 100%;  
 }
 
@@ -131,22 +85,34 @@ width:inherit;
     
 
     background-image: url("../images/bg/bg_intro_image.jpg");
-
     width:100% ;
     height:100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* display: flex; */
-    /* align-items: center; */
-    /* position: absolute; */
     overflow: hidden;
-    /* opacity: 0.4; */
-    filter: alpha(opacity=40);
-   /* background-size: 100%; */
-     
-   top: 0; /* or the distance from top page edge */
-   max-height: 100%;
+    filter: alpha(opacity=40);    
+    top: 0; /* distance from top page edge */
+    max-height: 100%;
+}
+.ourservices {
+  font-family: "Roboto",sans-serif;
+  font-size: large;
+  font-weight: 500;
+  color: black; 
+  /* background-color: rgb(99, 1, 1,0.7);   */
+  
+
+}
+.bottom-left {
+  font-family: "Roboto",sans-serif;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: floralwhite; 
+  padding: 3px 5px;
+  background-color: rgb(99, 1, 1,0.7);  
+  border-radius: 5px;
 }
 /* -------------Nav --------------- */
 #logodiv{
@@ -243,23 +209,11 @@ width:inherit;
     margin-top: 0px;
 }
 
-/* .menucontainer { */
-    /* font-size: 0%; */
-    /* padding: 0;
-    margin-left: 0px;
-} */
-
-
-/* .list-inline-item:not(:last-child) {
-    margin: 0;
-} */
-
 .list-inline-item:not(:last-child) {
     margin: 0px;
     padding: 0px;
     margin-top: 0px;
     margin-right: 2px;
-    /* display: inline grid; */
 }
 
 
@@ -271,7 +225,6 @@ width:inherit;
     height: 250px;
     text-align: center;
     padding: 0%;
-    /* vertical-align: top; */
     padding-bottom: 0%;
     border: 2px;
     border-color: maroon;
@@ -282,15 +235,11 @@ width:inherit;
     text-align: center;
     background-color: floralwhite;
     padding: 0%;
-    /* vertical-align: top; */
-    /* width: 100%; */
     height: auto;
     padding-bottom: 0%;
     border: 0px;
     border-color: maroon;
-    
-
-}
+ }
 
 .services-div:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
@@ -305,7 +254,6 @@ width:inherit;
 _.services-span {
     color: floralwhite;
     background-color: rgba(7, 7, 7, 0.5);
-    /* width: 100%; */
     text-align: center;
     text-transform: uppercase;
     font-size: 12px;
@@ -329,47 +277,23 @@ _.services-span {
 
 }
 
-/* #gal div {
-    margin-top: 10px;
-} */
-
 .rowextra {
     padding: 0%;
     border: 0px;
     vertical-align: middle;
-        /* width: 100%;
-    height: 100%;
-    border-left: 0px; */
-    /* transform-origin: 0px; */
-    /* align-items: center;
-    align-self: center; */
-
-
+    
 }
 
 .colextra {
     padding: 0%;
     border: 0px;
     vertical-align: middle;
-        /* width: 100%;
-    height: 100%;
-    border-left: 0px; */
-    /* transform-origin: 0px; */
-    /* align-items: center; */
-    /* align-self: center;
-    margin-left: 25%; */
-    
+ 
 }
 
-/* #gal>span {
-  background-color: #ffffff;  
-} */
-.intro_div{
-/* background-color: rgba(7, 7, 7, 0.1); */
-position: sticky;
 
-/* margin-left: 5% ;
-margin-right:5% !important; */
+.intro_div{
+position: sticky;
 display:inline-block;
 z-index: 4;
 padding-right: 0%;
@@ -409,10 +333,7 @@ max-width:1052px;
     font-family: "Exo", sans-serif;
     color: black;
     width: fit-content;
-    /* background-color: rgba(225, 225, 225, 0.8); */
-   text-align: justify;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    text-align: justify;
     margin-top: 0px;
     margin-bottom: 2px;
     line-height: 1.5;
@@ -606,8 +527,6 @@ button {
 }
 
 .center-form button[type="submit"] {
-    /* background: linear-gradient(to right,
-            rgb(255, 92, 92) 0%, rgb(255, 198, 92) 20%, rgb(255, 255, 92) 40%, rgb(92, 255, 92) 60%, rgb(92, 92, 255) 100%); */
     color: floralwhite;
 }
 
@@ -665,11 +584,7 @@ button {
     font-size:80%;
     font-weight: 700;
 }
-/* .child-map{
-    margin-top: 5px;
-    margin-right: 5px;
-    float:left;
-} */
+
 .addresses-div{
     /* padding-right: 0px; */
     /* widows: 0px; */
@@ -710,7 +625,8 @@ button {
  
 
   #typical-div{
-      background-color: rgba(80, 80, 80, 0.50);
+      font-family: "Roboto", sans-serif;
+      /* background-color: rgba(80, 80, 80, 0.50); */
       padding-left: 5%;
       padding-right: 5%;
       padding-bottom:25px;
@@ -729,12 +645,12 @@ button {
       font-size: large;
       padding-top: 25px;
       padding-bottom: 10px;
-      color: floralwhite;
+      color: flblackoralwhite;
   }
 
   #typical-ul {
-    font-family: "Exo", sans-serif;
-    color: floralwhite;
+    font-family: "Roboto", sans-serif;
+    color: black;
     padding-left: 0px;
     margin: 0;
     text-align: left;
@@ -751,9 +667,7 @@ button {
 /*--------------- footer ---------------------*/
 
 footer {
-    /* background-color: rgb(8, 6, 6,0.3); */
-    /* color: #fafafa; */
-    /* min-height: 120px; */
+
     margin: 0;
     margin-bottom: 0;
 }
@@ -766,23 +680,6 @@ footer {
     display: inline-block;
 
 }
-
-/* .foot-span {
-    color: floralwhite;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    vertical-align: middle;
-    line-height: 0%;
-    text-decoration: none;
-    padding-top: 0px;
-    justify-content: center;
-    padding-bottom: 0%;
-
-} */
 
 .a-hover:hover {
     text-decoration: none;
@@ -812,7 +709,7 @@ footer {
     font-weight: 500;
     color: floralwhite;
     text-align: center;
-    font-size: 70%;
+    font-size: 90%;
 
 
 }
@@ -873,11 +770,11 @@ footer {
     border-radius: 25%;
     border-width: 1px;
     border-style: solid;
-    border-color: floralwhite;
+    border-color: black;
     font-size: 13px;
     line-height: 0.5;
     text-align: center;
-    color: floralwhite;
+    color: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -885,6 +782,8 @@ footer {
   
 
 }
+
+
 
 .social-links li a i:hover {
     /* background: #e84610; */
@@ -909,30 +808,22 @@ opacity: 100;
 }
 
 .ln a i {
-    /* background-color: rgb(8, 60, 129);
-    opacity: 100; */
     opacity: 100;
 }
 
 .pi a i {
-    /* background-color: rgb(248, 53, 79); */
     opacity: 100;
 }
 
 .in a i {
-    /* background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
-    opacity: 100;
+ opacity: 100;
 }
 
 .yt a i {
-    /* background-color: rgba(252, 7, 7); */
     opacity: 100;
 }
 
 .ema a i {
-    /* background-color: rgb(39, 39, 32); */
     opacity: 100;
 }
 
