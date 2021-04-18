@@ -157,8 +157,8 @@ width:inherit;
     display: inline-block;
     background-image: url("../images/bg/logo/logo_clay_architects.jpg");
     box-sizing: border-box;
-    width:75px ;
-    height:30px;
+    width:100px ;
+    height:40px;
     background-position: left;
     background-repeat: no-repeat;
     background-size:auto;
@@ -167,6 +167,8 @@ width:inherit;
     position:relative;
     overflow: hidden;
     z-index:50;
+    border-color: rgba(99,1,1,1);
+    border-style: solid;
 
 }
 
@@ -198,10 +200,11 @@ width:inherit;
 }
 
 .topnav a {
-  color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
   padding: 0px 7px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 130%;
   display: block;
 }
 
@@ -209,8 +212,8 @@ width:inherit;
   background: rgb(99, 1, 1,0.8);
   display: block;
   position: absolute;
-  right: 4px;
-  top: 2px;
+  right: 6px;
+  top: 6px;
 }
 
 .topnav a:hover {
@@ -218,15 +221,20 @@ width:inherit;
   color: black;
 }
 
-.active {
-  background-color: rgba(179, 179, 179, 0.4);
-  color: white;
-}
+
 .show {
   display: block;
 }
 
+.icon-bars{
+    font-size: x-large;
+    color: floralwhite;
+}
 
+.active {
+  background-color: rgba(200, 200, 200, 0.4);
+  color: black;
+}
 /* ------------- Services --------------- */
 
 
@@ -376,9 +384,10 @@ max-width:1052px;
 }
 
 .title_only {
-    color: floralwhite;
+    font-family: "Exo", sans-serif;
+    color: black;
     width: fit-content;
-    background-color: rgba(7, 7, 7, 0.2);
+    background-color: rgba(225, 225, 225, 0.8);
    text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -393,12 +402,14 @@ max-width:1052px;
     border-width: 2px;
     border-style: solid;
     border-color: rgb(99, 1, 1,0.8);
+    font-size: 120%;
 }
 
 .intro_only {
-    color: floralwhite;
+    font-family: "Exo", sans-serif;
+    color: black;
     width: fit-content;
-    background-color: rgba(7, 7, 7, 0.2);
+    background-color: rgba(225, 225, 225, 0.8);
    text-align: justify;
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -411,6 +422,7 @@ max-width:1052px;
     padding-bottom: 15px;
     border-radius: 10px;
     max-width:1152px;
+    font-size: 120%;
     
     
 }
@@ -605,7 +617,7 @@ button {
     margin-left: 5%;
     margin-right:5%;
     margin-top: 5px;
-    font-size: 70%;
+    /* font-size: 80%; */
     /* border: 1px solid rgb(36, 36, 36); */
     border-radius: 8px;
     /* background-color: rgba(210, 210, 210, 40%); */
@@ -620,8 +632,9 @@ button {
     margin-right: 0;
 }
 .whoweare-div h6{
-    font-weight: 400;
+    font-weight: 300;
     line-height: 2;
+    font-size: x-large;
 }
 /*----------------------------Whoweare-offices------------*/
 
@@ -724,7 +737,7 @@ button {
   /* text-overflow: ellipsis;  */
   }
   h4 {
-      font-family: "Roboto", sans-serif;
+      font-family: "Exo", sans-serif;
       text-align: left;
       font-size: large;
       padding-top: 25px;
@@ -733,7 +746,8 @@ button {
   }
 
   #tipical-ul {
-      color: floralwhite;
+    font-family: "Exo", sans-serif;
+    color: floralwhite;
     padding-left: 0px;
     margin: 0;
     text-align: left;
@@ -818,7 +832,7 @@ footer {
 
 #footer-details {
     padding-top: 25px;
-    margin-top: 10%;
+    margin-top: 1%;
     position:bottom
     
 }
@@ -844,17 +858,18 @@ footer {
 }
 
 .social-links li a i {
+   
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 25%;
     border-width: 1px;
     border-style: solid;
-    border-color: floralwhite;
+    border-color: black;
     font-size: 13px;
     line-height: 0.5;
     text-align: center;
-    color: floralwhite;
+    color: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
