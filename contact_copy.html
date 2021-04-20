@@ -105,6 +105,26 @@
             </ul>
         </div>
 
+        <!-- radio -->
+
+<form method="post">
+    <div class="checking">
+    <div> <h6>Please Check the Service You are Interested:</h6></div>
+    <!-- <input type="radio" name="foo" id="houses" > 
+    <label for="houses">Designing A House</label><br> -->
+    <input type="radio" name="foo" id="landscape" >
+    <label for="landscape">Landscape or Grden</label><br>
+    <input type="radio" name="foo" id="interior" >
+    <label for="interior">Interior Design</label><br>
+    <input type="radio" name="foo" id="maquettes" >
+    <label for="maquettes">Building Maquettes</label><br>
+    <input type="checkbox" id="houses">
+    <label for="houses">Designing A House</label><br>
+    <button type="button" onclick="save()">save</button>
+    </div>
+</form>
+        <!-- end of radio -->
+
         <div class="center-form">
             <form onsubmit="return sendMail(this);">
                 <input id="from_name" type="text" name="visitorname" class="form-control" placeholder="Name" required />
@@ -203,6 +223,16 @@
         };
 
 
+    </script>
+    <script>
+    function save() {	
+	var checkbox = document.getElementById("houses");
+    localStorage.setItem("houses", checkbox.checked);	
+}
+
+//for loading
+var checked = JSON.parse(localStorage.getItem("houses"));
+    document.getElementById("houses").checked = checked;
     </script>
 </body>
 

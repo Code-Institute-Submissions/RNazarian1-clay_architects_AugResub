@@ -1,6 +1,6 @@
 ![Clay Architects](https://github.com/RNazarian1/clay_architects/blob/b303bfd3d75cc1e96a4eb5f0452ea5766dcba5e8/assets/images/logo/logo_clay_architects.jpg)
 
-Welcome RNazarian1,
+![Web Access]( https://rnazarian1.github.io/clay_architects/)
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
