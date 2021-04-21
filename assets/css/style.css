@@ -256,6 +256,9 @@ body {
 .crazy-div {
     width: 100%;
 }
+.extra-div {
+    height: 15px;
+}
 
 .title_only {
     font-family: "Roboto", sans-serif;
@@ -265,13 +268,14 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2px;
+    margin-top: 15px;
     margin-bottom: 0px;
     line-height: 1.5;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 110px;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
