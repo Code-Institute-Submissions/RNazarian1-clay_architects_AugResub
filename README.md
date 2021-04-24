@@ -175,6 +175,8 @@ Jquery, Font Awesome, Google Fonts and Microsoft PowerPoint (for creating framew
 
 ## **Testing**
 
+
+
 [Responsiveness](http://ami.responsivedesign.is/)
 
 * All pages are tested for responsiveness:
@@ -211,8 +213,14 @@ A separate google email account is made for the website for the test of the proj
 
 [JSHint](https://jshint.com/)
 
-* both [sendemail.js](assets/js/sendemail.js) and [whoarewe.js](assets/js/whoarewe.js) have generated few warnings which could be ignored whilst the script works!
+* both [sendemail.js](assets/js/sendemail.js) and [whoarewe.js](assets/js/whoarewe.js) have generated few warnings which could be ignored as the script works!
 
+[Lighthouse testing ](https://www.webpagetest.org/lighthouse/)
+
+The finished site was checked through Lighthouse Developer tool and the result found is attached here.
+![image](assets/images/readme/lighthouse.png)
+
+The best practices section showing `amber` because of low resolution of the images, which I kept purposefully to load the page faster.
 
 
 ## **Deployment**
