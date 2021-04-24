@@ -32,7 +32,7 @@ It shou8ld display the services at the first glance.
 
 ## **User Stories**
 
-Website visitores include: 
+Website visitors include: 
 * Those who are looking for unique and costomised designed houses or refurbishing existing dwellings
 * Those clients who are looking for interior design for houses, offices or businesses such as stores and shops
 * Many bigger companies that are outsourcing landscape designe as part of their projects or manicipalities who are planning to create parks and green spaces and also people who want their gardens in shape 
@@ -113,101 +113,208 @@ The email will send an email to the Clay Architects dedicated email.
 
 The footer incluudes links to social media company accounts and copyright sign. This footer repeats on all pages. The theme is  transparent icons in black or floralwhaite (depends on visibility) while changing the background color once hovered on by mouse.
 
+## **Technologies Used**
 
+## &nbsp; &nbsp; a. Languages
 
+HTML, CSS and Javascript were used for the website.
 
+## &nbsp; &nbsp; b. Associated technologies
 
+Jquery, Font Awesome, Google Fonts and Microsoft PowerPoint (for creating framework) was used in developing the website.
 
 
+## &nbsp; &nbsp; c. Workspace, version control, and Repository storage
 
 
+* [Github](https://en.wikipedia.org/wiki/GitHub)  
 
+   Github is used to make **Repositories** and for **Version Control**.
+* [Gitpod](https://www.gitpod.io/)
 
+   Gitpod is the main cloud-based editor for this project. Workspaces are made using the green Gitpod button in Github.
 
+## &nbsp; &nbsp; d. Other tools
 
+* [AutoPrefixer](https://autoprefixer.github.io/)
 
+  AutoPrefixer is used to make the site compatible with all browsers.
+* [W3C Validator](https://validator.w3.org/)
 
+  W3C validator is used for testing HTML and CSS for the site.
+* [JSHint](https://jshint.com/)  
 
+  JSHint is used for testing javascript code for the site.
+* [Am I Responsive](https://amiresponsive.co.uk/)
 
+  Am I Responsive site is used to take a mockup screenshot of the project, which is attached at the beginning of this document.
+* [Online Spelling Check](https://www.grammarly.com/)
 
+   Grammarly is used to check spelling and grammatical errors.
+ ***
 
+## **Resources**
 
+[Code Institute Course Content](https://courses.codeinstitute.net/program/FullstackWebDeveloper)- Main source of fundamental knowledge.
 
+ * Code institute **Slack Community**- Main source of assistance.
 
+ * [Stack Overflow](https://stackoverflow.com/)- General Resources.
 
+ * [Youtube](https://www.youtube.com/)- General Resource.
 
+ * [iColorpalette](https://icolorpalette.com/)- Find a relevant color palette for the site.
 
+  * [Am I Responsive](http://ami.responsivedesign.is/)- Responsive website mockup image generator.
+  
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)- General resources
 
+* [Google Map Platform](https://developers.google.com/maps/documentation)- Setting Google map API
 
+* [Email JS](https://www.emailjs.com/)- Setting Email
 
+## **Testing**
 
+[Responsiveness](http://ami.responsivedesign.is/)
 
+* All pages are tested for responsiveness:
 
+![Home page responsiveness](assets/images/readme/responsiveness_home.png)
 
+![who we are  page responsiveness](assets/images/readme/responsiveness_whoweare.png)
 
+![Contact  page responsiveness](assets/images/readme/responsiveness_contact.png)
 
 
+**Checking Email**
 
+A separate google email account is made for the website for the test of the projects.
 
+* ![Confirmation Message](assets/images/readme/confirmation_message.png)
 
+* ![Visitor Received Email](assets/images/readme/visitor_received_email_message.png)
 
+* ![Cmpany Received Email](assets/images/readme/company_received_email_message.png) 
 
 
 
 
+[W3C Markup Validation Service](https://validator.w3.org/)
 
+* There was an error regrding cash-control setting and due to that the cashe-control setting was removed from the heading. The cash-control need to be investigated for proper setup.
 
+* There is also error in regard to the positioning a div under a Ul and an span under ul which in both cases I found them work pretty well so I decided to leave them. The warning are minor and are related to the hyphens under a commented line which is neglegeble.
 
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
+* has generated no errors or warnings
 
+[JSHint](https://jshint.com/)
 
+* both [sendemail.js](assets/js/sendemail.js) and [whoarewe.js](assets/js/whoarewe.js) have generated few warnings which could be ignored whilst the script works!
 
 
 
+## **Deployment**
 
+This project is developed using the **Github** Repository. Coding is done in the workspace provided by **Gitpod**.
 
+Steps were taken to deploy the project
+1. Log into [Github](https://github.com/).
+2. Select [RNazarian1/Clay_Architects](https://rnazarian1.github.io/clay_architects/).
+3. Go to settings on the top right and scroll down to Github Pages.
+4. Under source link dropdown change the none to **master** branch.
+5. The page will be refreshed automatically and we will have a link to the live **URL**.
 
+To run locally, You can clone this repository directly in the editor of your choice by
 
-**    **
+`git clone` and adding the URL of the site.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+`git clone https://rnazarian1.github.io/clay_architects/`
 
-## Gitpod Reminders
+and the local clone will be created.
+***
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## **Acknowledgments**
 
-Another blue button should appear to click: *Open Browser*.
+My mentor **Nishant Kumar** for being patient with me.
+Code Institute Slack community for 24/7 availability and support.
+Online code institute Tutor support for excellent support.
+Special thanks to the student Kiran Kumari Satyarthy for her suggestions.
+***
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
