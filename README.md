@@ -20,7 +20,6 @@ This website is made written by using **HTML**, **CSS**,  and **Javascript**.
 * [Resources](#resources)
 * [Testing](#testing)
 * [Deployment](#deployment)
-* [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
 
@@ -50,32 +49,32 @@ This website is a a small hub for connecting all those people together and get s
 
 ## **UX**
 
-###  >>**a.Strategy**
+###  &nbsp; &nbsp; **a.Strategy**
 
 The strategy is topromote Clay Architects through a minimalist website where only necessary information about a startup architecure company is provided to the visitors so it aooears to be more focused on services and real project rather than endless number of  marketting materials.
 
-###  >>**b.Scope**
+###  &nbsp; &nbsp; **b.Scope**
 
 It is a simple minimalistic website with listed services immediately visible under the home page, a page for company introduction and office locations displayed on google map. There is a **Typical Work Stage**. There is an email form to get the visitors contact. The website will have social media links under each page.
 
-### >>**c.Structure**
+### &nbsp; &nbsp; **c.Structure**
 
 The website has three pages wnd a menu bar which links all pages together.
 
 The website will be responsive. and its [wireframe](assets/wireframe/lms2_clay_architect_framework.pdf) shows the blueprint of the project. The pages are displayed on three devises (desktop, tablet and smart-phone)
 
-### >>**d.Surface**
+### &nbsp; &nbsp; **d.Surface**
 
-### &nbsp; >>>**d.I.Color**
+### &nbsp; &nbsp; &nbsp; **d.I.Color**
 
 The color theme is a black and white theme with shadows of grey and a secondary color of rgb(99,1,1,) appears for some borders and by collor change effect by hovering on social media icons.
 The floralwhite color is also used for some borders and hamburger menu.
 
-### &nbsp; >>>**d.II.Typography**
+### &nbsp; &nbsp; &nbsp; **d.II.Typography**
 
 Google Font **Roboto** with a fallback of **sans sarif** is selected for the entire project. 
 
-### &nbsp; >>>**d.III.Images**
+### &nbsp; &nbsp; &nbsp; **d.III.Images**
 
 Images are prepared from public domain and converted to png format for better web performance.
 
