@@ -173,7 +173,7 @@ body {
 
 .active {
     background-color: black;
-    color: black;
+    color: rgb(15, 8, 8);
 }
 
 /* ------------- Services --------------- */
@@ -314,7 +314,6 @@ body {
     padding: 0px;
     margin: 1px;
     filter: grayscale(95%);
-    filter: gray;
     border: 5px solid floralwhite;
     max-width: 380px;
 
@@ -331,7 +330,6 @@ body {
     padding: 0px;
     margin: 1px;
     filter: grayscale(95%);
-    filter: gray;
     border: 5px solid floralwhite;
     max-width: 380px;
 }
@@ -346,7 +344,6 @@ body {
     padding: 0px;
     margin: 1px;
     filter: grayscale(95%);
-    filter: gray;
     border: 5px solid floralwhite;
     max-width: 380px;
 }
@@ -360,7 +357,6 @@ body {
     padding: 0px;
     margin: 1px;
     filter: grayscale(95%);
-    filter: gray;
     border: 5px solid floralwhite;
     max-width: 380px;
 }
@@ -498,7 +494,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: rgb(99, 1, 1);
+    background-color: rgb(78, 5, 5);
     content: '';
     display: inline-block;
     visibility: visible;
@@ -762,32 +758,32 @@ footer {
 }
 
 .fb a i {
-    opacity: 100;
+    opacity: 1;
 
 }
 
 .tw a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 .ln a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 .pi a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 .in a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 .ut a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 .ema a i {
-    opacity: 100;
+    opacity: 1;
 }
 
 
