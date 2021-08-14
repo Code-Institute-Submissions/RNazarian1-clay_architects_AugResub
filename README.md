@@ -22,6 +22,10 @@ This website is made written by using **HTML**, **CSS**,  and **Javascript**.
 * [Deployment](#deployment)
 * [Acknowledgments](#acknowledgments)
 
+## **Purpose**
+
+The purpose is to create a website for an architecture company focused on services without complication and distractions. The purpose is to bring customers and architects close to eachother withought going through intermediate builder firms.
+
 
 ## **Overview**
 
